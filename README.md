@@ -27,6 +27,7 @@ Compare one CRSP fund's holdings in adjacent report dates. This CRSP fund's chan
 (2) the interval between the two adjacent report dates is at most 6 months.
 
 2. Calculate 3 types of distance between CRSP change of holdings and ANcerno cumulative tradings.
+
 (1) create CRSP change of holdings vector and ANcerno cumulative tradings vector. Each dimension of these two vectors is a stock with CRSP change of holdings != 0. Each element in CRSP change of holdings vector is the change of shares on this stock held by a fund. Each element in ANcerno cumulative tradings vector is the sum of shares traded on this stock by an account.
 
 (2) distance 1: cosine similarity between the two vectors.
